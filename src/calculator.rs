@@ -287,12 +287,12 @@ impl PyCalculator {
         // - is relax
         // - is osu!standard
         //   or mode is not specified and map is osu!standard, as that will be the inferred mode
-        if (self.mods.is_some() && self.mods.unwrap().rx())
-            && ((self.mode.is_none() && map.inner.mode == GameMode::Osu)
-                || self.mode == Some(GameMode::Osu))
-        {
-            return self.performance_2019(map);
-        }
+        // if (self.mods.is_some() && self.mods.unwrap().rx())
+        //     && ((self.mode.is_none() && map.inner.mode == GameMode::Osu)
+        //         || self.mode == Some(GameMode::Osu))
+        // {
+        //     return self.performance_2019(map);
+        // }
 
         let mut calc = AnyPP::new(&map.inner);
 
