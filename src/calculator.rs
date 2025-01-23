@@ -1,7 +1,7 @@
 use akatsuki_pp::{
     osu::{OsuDifficultyAttributes, OsuPerformanceAttributes},
     osu_2019::OsuPP,
-    AnyPP, AnyStars, DifficultyAttributes, GameMode, Mods, PerformanceAttributes,
+    AnyPP, AnyStars, DifficultyAttributes, GameMode, PerformanceAttributes,
 };
 use pyo3::{
     exceptions::{PyTypeError, PyValueError},
