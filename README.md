@@ -1,4 +1,4 @@
-# murasame-pp-py
+# akatsuki-pp-py
 
 Difficulty and performance calculation for all [osu!](https://osu.ppy.sh/) modes.
 

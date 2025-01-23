@@ -8,6 +8,14 @@ version = "1.0.1"
 source = "git+https://github.com/osuAkatsuki/akatsuki-pp-rs?rev=b96019f50aa7d09bcbde60016481a69df04315e4#b96019f50aa7d09bcbde60016481a69df04315e4"
 
 [[package]]
+name = "akatsuki-pp-py"
+version = "1.0.5"
+dependencies = [
+ "akatsuki-pp",
+ "pyo3",
+]
+
+[[package]]
 name = "autocfg"
 version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -54,14 +62,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5aa361d4faea93603064a027415f07bd8e1d5c88c9fbf68bf56a285428fd79ce"
 dependencies = [
  "autocfg",
-]
-
-[[package]]
-name = "murasame-pp-py"
-version = "1.0.6"
-dependencies = [
- "akatsuki-pp",
- "pyo3",
 ]
 
 [[package]]
