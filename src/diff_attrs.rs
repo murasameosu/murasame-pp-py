@@ -1,6 +1,6 @@
 use std::fmt::{Debug, Display, Formatter, Result as FmtResult};
 
-use akatsuki_pp::{
+use murasame_pp::{
     catch::CatchDifficultyAttributes, mania::ManiaDifficultyAttributes,
     osu::OsuDifficultyAttributes, taiko::TaikoDifficultyAttributes, DifficultyAttributes,
 };

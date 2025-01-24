@@ -11,8 +11,9 @@ name = "akatsuki_pp_py"
 crate-type = ["cdylib"]
 
 [dependencies]
-pyo3 = { version = "0.17", features = ["extension-module", "macros"] }
-akatsuki-pp = { git = "https://github.com/osuAkatsuki/akatsuki-pp-rs", rev = "b96019f50aa7d09bcbde60016481a69df04315e4" }
+murasame-pp = { git = "https://github.com/murasameosu/murasame-pp-rs", rev = "37890c9ae8f0f1bfb30cf8cecac83f9f366a5769" }
+pyo3 = { version = "0.17", features = ["extension-module","macros"] }
+
 
 [profile.release]
 lto = "fat"

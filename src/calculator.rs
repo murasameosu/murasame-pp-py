@@ -1,4 +1,4 @@
-use akatsuki_pp::{
+use murasame_pp::{
     osu::{OsuDifficultyAttributes, OsuPerformanceAttributes},
     osu_2019::OsuPP,
     AnyPP, AnyStars, DifficultyAttributes, GameMode, PerformanceAttributes,

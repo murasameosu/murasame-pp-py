@@ -3,15 +3,10 @@
 version = 3
 
 [[package]]
-name = "akatsuki-pp"
-version = "1.0.1"
-source = "git+https://github.com/osuAkatsuki/akatsuki-pp-rs?rev=b96019f50aa7d09bcbde60016481a69df04315e4#b96019f50aa7d09bcbde60016481a69df04315e4"
-
-[[package]]
 name = "akatsuki-pp-py"
 version = "1.0.5"
 dependencies = [
- "akatsuki-pp",
+ "murasame-pp",
  "pyo3",
 ]
 
@@ -63,6 +58,11 @@ checksum = "5aa361d4faea93603064a027415f07bd8e1d5c88c9fbf68bf56a285428fd79ce"
 dependencies = [
  "autocfg",
 ]
+
+[[package]]
+name = "murasame-pp"
+version = "1.0.0"
+source = "git+https://github.com/murasameosu/murasame-pp-rs?rev=37890c9ae8f0f1bfb30cf8cecac83f9f366a5769#37890c9ae8f0f1bfb30cf8cecac83f9f366a5769"
 
 [[package]]
 name = "once_cell"
