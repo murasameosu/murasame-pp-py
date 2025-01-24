@@ -62,7 +62,7 @@ dependencies = [
 [[package]]
 name = "murasame-pp"
 version = "1.0.0"
-source = "git+https://github.com/murasameosu/murasame-pp-rs?rev=37890c9ae8f0f1bfb30cf8cecac83f9f366a5769#37890c9ae8f0f1bfb30cf8cecac83f9f366a5769"
+source = "git+https://github.com/murasameosu/murasame-pp-rs?rev=100da2bac10dba689c50effa420f6e2a60d9a996#100da2bac10dba689c50effa420f6e2a60d9a996"
 
 [[package]]
 name = "once_cell"
