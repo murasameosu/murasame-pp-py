@@ -11,7 +11,7 @@ name = "murasame_pp_py"
 crate-type = ["cdylib"]
 
 [dependencies]
-murasame-pp = { git = "https://github.com/murasameosu/murasame-pp-rs", rev = "100da2bac10dba689c50effa420f6e2a60d9a996" }
+murasame-pp = { git = "https://github.com/murasameosu/murasame-pp-rs", rev = "60eb83199a2d3d27566e92f8adfff45e40f6cf8a" }
 pyo3 = { version = "0.17", features = ["extension-module","macros"] }
 
 
