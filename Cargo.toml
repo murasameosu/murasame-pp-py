@@ -1,6 +1,6 @@
 [package]
 name = "murasame-pp-py"
-version = "1.0.5"
+version = "1.0.0"
 description = "osu! difficulty and pp calculation for all modes"
 authors = ["Max Ohn <ohn.m@hotmail.de>", "tsunyoku <tsunyoku@gmail.com>"]
 license = "MIT"
