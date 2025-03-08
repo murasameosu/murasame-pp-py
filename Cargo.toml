@@ -1,5 +1,5 @@
 [package]
-name = "akatsuki-pp-py"
+name = "murasame-pp-py"
 version = "1.0.5"
 description = "osu! difficulty and pp calculation for all modes"
 authors = ["Max Ohn <ohn.m@hotmail.de>", "tsunyoku <tsunyoku@gmail.com>"]
@@ -7,7 +7,7 @@ license = "MIT"
 edition = "2021"
 
 [lib]
-name = "akatsuki_pp_py"
+name = "murasame_pp_py"
 crate-type = ["cdylib"]
 
 [dependencies]
