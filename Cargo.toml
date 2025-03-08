@@ -1,6 +1,6 @@
 [package]
 name = "murasame-pp-py"
-version = "1.0.1"
+version = "1.0.2"
 description = "osu! difficulty and pp calculation for all modes"
 authors = ["Max Ohn <ohn.m@hotmail.de>", "tsunyoku <tsunyoku@gmail.com>", "namakemono-san <contact@nmkmn.moe>"]
 license = "MIT"
@@ -11,7 +11,7 @@ name = "murasame_pp_py"
 crate-type = ["cdylib"]
 
 [dependencies]
-murasame-pp = { git = "https://github.com/murasameosu/murasame-pp-rs", rev = "60eb83199a2d3d27566e92f8adfff45e40f6cf8a" }
+murasame-pp = { git = "https://github.com/murasameosu/murasame-pp-rs", rev = "87f1ed4874664f8ffb50dbf244aace8be667df40" }
 pyo3 = { version = "0.17", features = ["extension-module","macros"] }
 
 
